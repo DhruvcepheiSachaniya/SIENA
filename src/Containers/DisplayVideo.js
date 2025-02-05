@@ -35,7 +35,7 @@ import EASL_guideline from '../assets/PDF/EASL guideline.pdf';
 import INASL_guideline from '../assets/PDF/INASL guideline.pdf';
 import Japanease_guideline_of_NAFLD_2020 from '../assets/PDF/Japanease guideline of NAFLD 2020.pdf';
 
-import striperimg from '../assets/images/three_in_one.png';
+import striperimg from '../assets/images/stripper_img.png';
 
 function DisplayVideo(props) {
   const [selectedPdf, setSelectedPdf] = useState(null);
@@ -57,7 +57,7 @@ function DisplayVideo(props) {
       therapy in reflux esophagitis`
     },
     {
-      title: "aasld_practice_guidance_on_the_clinical_assessment",
+      title: "aasld practice guidance on_the clinical assessment",
       // src: Evidance_based_guideline_2021,
       src: aasld_practice_guidance_on_the_clinical_assessment,
       description : `Evidence-based clinical practice guidelines for gastroesophageal
@@ -354,11 +354,11 @@ function DisplayVideo(props) {
 
   return (
     <>
-        <div style={{ display: "flex" }}>
-        <img style={{ height: "50px"}} src={striperimg} alt="stripper image" />
-        </div>
+      <div className="striperimg">
+          <img src={striperimg} alt="stripper image" />
+      </div>
       <div className="video-article-tab-container">
-        <div style={{ display: "flex", gap: "30px", alignItems: "center" }}>
+        <div className="stepper-first" style={{ display: "flex", gap: "30px", alignItems: "center" }}>
           <div
             style={{ textAlign: 'center', height: openArticleTab ? "65px": "50px" }}
             className={openArticleTab ? "selected-tab" : "article-tab"}

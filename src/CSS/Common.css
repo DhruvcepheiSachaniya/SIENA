@@ -102,6 +102,15 @@
     overflow-x: hidden;
   }
 
+  .striperimg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .striperimg img {
+    /* height: 80px; */
+    width: 100%;
+  }
 .video-article-tab-container{
     display: flex;
     width: 100%;
@@ -931,6 +940,14 @@
         left: 3%; /* Adjust right position as needed */
         /* top: 10%; */
       }
+
+    .stepper-first {
+        margin-left: 1.5rem;
+    }
+    .striperimg img {
+        height: 100%;
+        width: 100%;
+    }
 
       .video-article-tab-container{
         display: flex;

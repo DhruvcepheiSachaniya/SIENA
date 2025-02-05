@@ -142,17 +142,17 @@ const PlayCurrentVideo = (id) =>{
                             </div> */}
                             
                             <div className='listblock'>
-                                <h1 style={{ textAlien: "center"}}>Coming Soon...</h1>
+                                {/* <h1 style={{ textAlien: "center"}}>Coming Soon...</h1> */}
                                 {/* <DisplayVideoMessage 
                                 data={contentdata} 
                                 onPlayCurrentVideo={PlayCurrentVideo}
                                 onCurrentVideoPlay={currentVideoPlay}
                                 /> */}
-                                {/* <DisplayVideo 
+                                <DisplayVideo 
                                 data = {contentdata} 
                                 onPlayCurrentVideo={PlayCurrentVideo}
                                 onCurrentVideoPlay={currentVideoPlay} 
-                                /> */}
+                                />
                             </div>
                         </Container>
 
