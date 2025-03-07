@@ -157,107 +157,107 @@ function DisplayVideo(props) {
   const [videos, setVideos] = useState([
     
     {
-      video_src: 'https://www.youtube.com/embed/tr_tVyoWADg?si=q_Yan6-j4hL3MmGK',
-      video_dec: 'How do Potassium Competitive Acids Blockers (PCABs) work as compared to Proton pump inhibitors (PPIs)?',
+      video_src: 'https://www.youtube.com/embed/CZHtZP39AOw?si=4mlkXiN3L2ErSX3v',
+      video_dec: 'LYRATO INJECT THE DOSE',
       video_title: 'Video title 1',
       sequence: 1,
     },
-    {
-      video_src: 'https://www.youtube.com/embed/xwQ-6FbbCfE?si=F_IX8CnOSJmCnids',
-      video_dec: 'What is the difference between Vonoprazan and conventional PPIs ?',
-      video_title: 'Video title 2',
-      sequence: 2,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/aClpaVUyS28?si=UYhpjQPUPtbPSTbz',
-      video_dec: 'What are important pharmacokinetic features of Vonoprazan ?',
-      video_title: 'Video title 3',
-      sequence: 3,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/zfWxTwp2lbI?si=QDr0-9N5UJ6FLlkJ',
-      video_dec: 'What are the approved clinical indications of Vonoprazan ?',
-      video_title: 'Video title 4',
-      sequence: 4,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/LOXYNTnES28?si=5mtm_T-7Yd_rYrAM',
-      video_dec: 'What are the dosages for different indications of Vonoprazan ?',
-      video_title: 'Video title 5',
-      sequence: 5,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/2jykC24hliY?si=cMX0_a8qsnGHJ6u3',
-      video_dec: 'What about use of Vonoprazan in special populations (Children/pregnancy/elderly) and conditions?',
-      video_title: 'Video title 6',
-      sequence: 6,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/8NRWQcF5RrA?si=tXI__PzscmrxNNs5',
-      video_dec: 'What is the difference between acid inhibitory effects of Vonoprazan and Rabeprazole ?',
-      video_title: 'Video title 7',
-      sequence: 7,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/kPlneOnmHBc?si=JwYtXOckHIGGaCHc',
-      video_dec: 'What research has been conducted comparing Vonoprazan with PPIs for the treatment of GERD ?',
-      video_title: 'Video title 8',
-      sequence: 8,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/vKHWb5_6qR8?si=4IwuYPUyp4pDewpE',
-      video_dec: 'How safe is Vonoprazan on a long term Maintenance dose in GERD and Erosive Esophagitis ?',
-      video_title: 'Video title 9',
-      sequence: 9,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/zNxEo8BXhX4?si=zzfBkZH9w0Jmi6KK',
-      video_dec: 'What research has been conducted comparing Vonoprazan with PPIs for the treatment of Erosive GERD For H. pylori therapy ?',
-      video_title: 'Video title 10',
-      sequence: 10,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/JhOFaUjefRc?si=_SshPbcYsB3dlnAv',
-      video_dec: 'Will Vonoprazan be effective as compared to PPIs in the treatment of Refractory GERD ?',
-      video_title: 'Video title 11',
-      sequence: 11,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/kpkb8sk62wI?si=DvqD0TaL1hsZefFc',
-      video_dec: 'What about Vonoprazan in Nocturnal Acid Breakthrough ?',
-      video_title: 'Video title 12',
-      sequence: 12,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/BfvOvxnbZkg?si=pb1y2JcREfIQ258f',
-      video_dec: 'What are the guidelines for the use of Vonoprazan ?',
-      video_title: 'Video title 13',
-      sequence: 13,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/dv-6vpT6x8M?si=Iftu_eLpXiGV836F',
-      video_dec: 'How can we adopt the Vonoprazan in our clinical practice ?',
-      video_title: 'Video title 14',
-      sequence: 14,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/f-XDZqNtjOs?si=d8n2h7PX7LJl0PUj',
-      video_dec: 'Is Vonoprazan the next big thing in the treatment of Acid Peptic Disorders?',
-      video_title: 'Video title 15',
-      sequence: 15,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/Q-BTPp3vn6U?si=JoiePPvov_f6K-SZ',
-      video_dec: 'What is the difference between acid inhibitory effects of Vonoprazan and Lansoprazole?',
-      video_title: 'Video title 16',
-      sequence: 16,
-    },
-    {
-      video_src: 'https://www.youtube.com/embed/_uF5INxFs6Q?si=PhHmzYnsHOLVrdtQ',
-      video_dec: 'MOA of Vozan',
-      video_title: 'Video title 17',
-      sequence: 17,
-    },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/xwQ-6FbbCfE?si=F_IX8CnOSJmCnids',
+    //   video_dec: 'What is the difference between Vonoprazan and conventional PPIs ?',
+    //   video_title: 'Video title 2',
+    //   sequence: 2,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/aClpaVUyS28?si=UYhpjQPUPtbPSTbz',
+    //   video_dec: 'What are important pharmacokinetic features of Vonoprazan ?',
+    //   video_title: 'Video title 3',
+    //   sequence: 3,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/zfWxTwp2lbI?si=QDr0-9N5UJ6FLlkJ',
+    //   video_dec: 'What are the approved clinical indications of Vonoprazan ?',
+    //   video_title: 'Video title 4',
+    //   sequence: 4,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/LOXYNTnES28?si=5mtm_T-7Yd_rYrAM',
+    //   video_dec: 'What are the dosages for different indications of Vonoprazan ?',
+    //   video_title: 'Video title 5',
+    //   sequence: 5,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/2jykC24hliY?si=cMX0_a8qsnGHJ6u3',
+    //   video_dec: 'What about use of Vonoprazan in special populations (Children/pregnancy/elderly) and conditions?',
+    //   video_title: 'Video title 6',
+    //   sequence: 6,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/8NRWQcF5RrA?si=tXI__PzscmrxNNs5',
+    //   video_dec: 'What is the difference between acid inhibitory effects of Vonoprazan and Rabeprazole ?',
+    //   video_title: 'Video title 7',
+    //   sequence: 7,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/kPlneOnmHBc?si=JwYtXOckHIGGaCHc',
+    //   video_dec: 'What research has been conducted comparing Vonoprazan with PPIs for the treatment of GERD ?',
+    //   video_title: 'Video title 8',
+    //   sequence: 8,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/vKHWb5_6qR8?si=4IwuYPUyp4pDewpE',
+    //   video_dec: 'How safe is Vonoprazan on a long term Maintenance dose in GERD and Erosive Esophagitis ?',
+    //   video_title: 'Video title 9',
+    //   sequence: 9,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/zNxEo8BXhX4?si=zzfBkZH9w0Jmi6KK',
+    //   video_dec: 'What research has been conducted comparing Vonoprazan with PPIs for the treatment of Erosive GERD For H. pylori therapy ?',
+    //   video_title: 'Video title 10',
+    //   sequence: 10,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/JhOFaUjefRc?si=_SshPbcYsB3dlnAv',
+    //   video_dec: 'Will Vonoprazan be effective as compared to PPIs in the treatment of Refractory GERD ?',
+    //   video_title: 'Video title 11',
+    //   sequence: 11,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/kpkb8sk62wI?si=DvqD0TaL1hsZefFc',
+    //   video_dec: 'What about Vonoprazan in Nocturnal Acid Breakthrough ?',
+    //   video_title: 'Video title 12',
+    //   sequence: 12,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/BfvOvxnbZkg?si=pb1y2JcREfIQ258f',
+    //   video_dec: 'What are the guidelines for the use of Vonoprazan ?',
+    //   video_title: 'Video title 13',
+    //   sequence: 13,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/dv-6vpT6x8M?si=Iftu_eLpXiGV836F',
+    //   video_dec: 'How can we adopt the Vonoprazan in our clinical practice ?',
+    //   video_title: 'Video title 14',
+    //   sequence: 14,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/f-XDZqNtjOs?si=d8n2h7PX7LJl0PUj',
+    //   video_dec: 'Is Vonoprazan the next big thing in the treatment of Acid Peptic Disorders?',
+    //   video_title: 'Video title 15',
+    //   sequence: 15,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/Q-BTPp3vn6U?si=JoiePPvov_f6K-SZ',
+    //   video_dec: 'What is the difference between acid inhibitory effects of Vonoprazan and Lansoprazole?',
+    //   video_title: 'Video title 16',
+    //   sequence: 16,
+    // },
+    // {
+    //   video_src: 'https://www.youtube.com/embed/_uF5INxFs6Q?si=PhHmzYnsHOLVrdtQ',
+    //   video_dec: 'MOA of Vozan',
+    //   video_title: 'Video title 17',
+    //   sequence: 17,
+    // },
   ]);
 
   const toggleDescription = (index) => {
@@ -368,14 +368,14 @@ function DisplayVideo(props) {
             <img src={article_image} alt="Article Tab" />
           </div>
           {/* change here */}
-          {/* <div
+          <div
             className={openVideoTab ? "selected-tab" : "video-tab"}
             style={{ width: openArticleTab ? "150px" : "200px"}}
             onClick={handleVideoTabClicked}
           >
             <h4> Studies</h4>
             <img src={yt_img} alt="Video Tab" />
-          </div> */}
+          </div>
         </div>
 
         <div className={openArticleTab ? "search-container" : "none"}>
